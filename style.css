@@ -245,7 +245,7 @@
     padding: 1rem;
 }
 
-/* HEADER */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -266,15 +266,14 @@
     cursor: pointer;
 }
 
-/* GRID – MOBILE FIRST */
+
 .product-grid {
     display: grid;
     grid-template-columns: 1fr;
-    /* mobile */
     gap: 1rem;
 }
 
-/* PRODUCT CARD */
+
 .product-card {
     background: #fff;
     padding: 1rem;
@@ -293,7 +292,7 @@
     font-weight: 600;
 }
 
-/* RATING */
+
 .rating {
     display: flex;
     justify-content: center;
@@ -302,7 +301,7 @@
     margin-bottom: 0.5rem;
 }
 
-/* PRICE */
+
 .price {
     margin-bottom: 0.6rem;
 }
@@ -316,7 +315,7 @@
     color: #000;
 }
 
-/* CART */
+
 .cart {
     display: grid;
     grid-template-columns: 50px 1fr;
@@ -346,131 +345,220 @@
 
 
 .Shop {
-display: grid;
-grid-template-columns: 1fr; 
-gap: 1rem;
-padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 30px;
 }
 
 
 .shop {
-position: relative;
-min-height: 220px;
-border-radius: 12px;
-overflow: hidden;
-background-size: cover;
-background-position: center;
-display: flex;
-align-items: center;
+    position: relative;
+    min-height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
 }
 
 
 .sale1 .content {
-color: #fff;
-padding: 90px;
-max-width: 90%;
+    color: #fff;
+    padding: 90px;
+    max-width: 90%;
 }
 
 .content h1 {
-font-size: 25px;
-margin-bottom: 0.3rem;
+    font-size: 25px;
+    margin-bottom: 0.3rem;
 }
 
 .content p {
-font-size: 18px;
-margin-bottom: 0.6rem;
+    font-size: 18px;
+    margin-bottom: 0.6rem;
 }
 
 .content a {
-display: inline-block;
-font-size: 14px;
-text-decoration: none;
-color: #fff;
-border-bottom: 2px solid #fff;
-padding-bottom: 2px;
-} 
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 2px;
+}
 
 .sale1 {
-background-image: url("./images/banner-ad-1.jpg");
-color: white;
+    background-image: url("./images/banner-ad-1.jpg");
+    color: white;
 }
 
 
 .sale2 {
-background-image: url("./images/banner-ad-2.jpg");
-color: white;
-padding: 40px;
+    background-image: url("./images/banner-ad-2.jpg");
+    color: white;
+    padding: 40px;
 }
 
 .sale3 {
-background-image: url("./images/banner-ad-3.jpg");
-color: white;
-padding: 40px;
+    background-image: url("./images/banner-ad-3.jpg");
+    color: white;
+    padding: 40px;
 }
 
 
 
 .register {
-background-image: url("./images/banner-newsletter.jpg"); 
-background-size: cover;
-background-position: center;
-padding: 80px 40px;
+    background-image: url("./images/banner-newsletter.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 40px;
 }
 
 .register1 {
-max-width: 1200px;
-margin: auto;
-display: grid;
-grid-template-columns: repeat(1, 1fr);
-align-items: center;
-justify-content: space-between;
-gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 
 .register-text {
-color: #fff;
+    color: #fff;
 }
 
 .register-text h1 {
-font-size: 32px;
-font-weight: 300;
-margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 15px;
 }
 
 .register-text p {
-font-size: 16px;
-opacity: 0.9;
+    font-size: 16px;
+    opacity: 0.9;
 }
 
 
 .form1 {
-flex: 1;
-max-width: 420px;
+    flex: 1;
+    max-width: 420px;
 }
 
 .form1 input {
-width: 100%;
-padding: 14px;
-margin-bottom: 12px;
-border: none;
-outline: none;
-font-size: 14px;
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 12px;
+    border: none;
+    outline: none;
+    font-size: 14px;
 }
 
 .form1 button {
-width: 100%;
-padding: 14px;
-background: #1e1e1e;
-color: #fff;
-border: none;
-cursor: pointer;
-font-size: 15px;
+    width: 100%;
+    padding: 14px;
+    background: #1e1e1e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
 }
 
 .form1 button:hover {
-background: #000;
+    background: #000;
 }
+
+/* Wrapper */
+.product-wrapper {
+    padding: 40px 16px;
+    background: #f6f6f6;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Section header */
+.product-wrapper .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.product-wrapper h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.btn {
+    padding: 10px 18px;
+    border: none;
+    background:green;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Blog card */
+.blog-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    max-width: 420px;
+}
+
+/* Image */
+.blog-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 20px;
+}
+
+/* Content */
+.blog-content {
+    padding: 20px;
+}
+
+.blog-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 12px;
+}
+
+.blog-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #111;
+}
+
+.blog-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+@media (min-width: 1024px) {
+    .product-wrapper .blog-card{
+       display: flex;
+    }
+    .product-wrapper h2 {
+        font-size: 20px;
+    }
+
+    .blog-card {
+        max-width: 100%;
+    }
+}
+
+
 
 
 @media(min-width:768px) {
@@ -562,54 +650,54 @@ background: #000;
 
 
 @media (min-width: 768px) {
-.Shop {
-grid-template-columns: 2fr 1fr;
-grid-template-rows: repeat(2, 1fr);
-}
+    .Shop {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
 
-.sale1 {
-grid-row: 1 / 3; 
-}
+    .sale1 {
+        grid-row: 1 / 3;
+    }
 
-.shop {
-min-height: 260px;
-}
+    .shop {
+        min-height: 260px;
+    }
 
-.shop h1 {
-font-size: 1.8rem;
-}
+    .shop h1 {
+        font-size: 1.8rem;
+    }
 }
 
 
 
 
 @media (min-width: 768px) {
-.register-text h1 {
-font-size: 32px;
-}
+    .register-text h1 {
+        font-size: 32px;
+    }
 
-.register1 {
-gap: 20px;
-display: flex;
-}
-.register-text{
-    flex: 1;
-}
+    .register1 {
+        gap: 20px;
+        display: flex;
+    }
+
+    .register-text {
+        flex: 1;
+    }
 }
 
 
 @media (max-width: 1440px) {
-.register {
-padding: 60px 20px;
+    .register {
+        padding: 60px 20px;
 
-}
+    }
 
-.register-text h1 {
-font-size: 28px;
-}
+    .register-text h1 {
+        font-size: 28px;
+    }
 
-.form1 {
-width: 100%;
+    .form1 {
+        width: 100%;
+    }
 }
-}
-
